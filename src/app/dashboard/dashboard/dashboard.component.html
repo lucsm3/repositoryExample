@@ -1,0 +1,50 @@
+<html>
+  <div class="container-sun" *ngIf="horasAtuais < 18">
+  <header>
+    <div class="flex flex-row justify-center flex-wrap">
+    <div class="basis-1/6">
+    <span class="hover">Home</span>
+    </div>
+    <div >
+    <span class="hover">Portifolio</span>
+    </div>
+  </div>
+  </header>
+  <body class="flex flex-row justify-start">
+  <div class="flex flex-col">
+    <h1 class="text-3xl"><b>Ola! Sou o Lucas Mendonça.</b></h1>
+    <h1 class="text-3xl"><b class="texto1Gradient">Desenvolvedor</b><b>   Fullstack</b><b class="texto1Gradient">   Pleno</b></h1>
+    <span>Apaixonado Por Desenvolver Soluçoes Técnologicas.</span>
+    <span>Crio Soluçoes técnologicas com Alta Performance Para Você ou Seu Négocio.</span>
+  </div>
+  <div>
+    <img src="../../../assets/icons/iconPortfolio.svg">
+  </div>
+  </body>
+</div>
+
+ <div class="container-night" *ngIf="horasAtuais > 18">
+  <header>
+    <div class="flex flex-row justify-center flex-wrap">
+    <div class="basis-1/6">
+    <span class="hover" style="color: white;" >Home</span>
+    </div>
+    <div >
+    <span class="hover" style="color: white;">Portifolio</span>
+    </div>
+  </div>
+  </header>
+  <body class="flex flex-row justify-start">
+  <div class="flex flex-col">
+    <h1 class="text-3xl"><b style="color: white;">Ola! Sou o Lucas Mendonça.</b></h1>
+    <h1 class="text-3xl"><b class="texto1Gradient">Desenvolvedor</b><b style="color: white;">Fullstack</b><b class="texto1Gradient">   Pleno</b></h1>
+    <span style="color: white;">Apaixonado Por Desenvolver Soluçoes Técnologicas.</span>
+    <span style="color: white;">Crio Soluçoes técnologicas com Alta Performance Para Você ou Seu Négocio.</span>
+  </div>
+  <div>
+    <img src="../../../assets/icons/iconPortfolio.svg">
+  </div>
+  </body>
+</div> 
+</html>
+

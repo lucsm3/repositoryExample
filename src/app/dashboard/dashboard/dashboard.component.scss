@@ -1,0 +1,55 @@
+.container-sun {
+    background: radial-gradient(ellipse at top left  , #FF7BCA 10%, #FFC56F, white 25% 80%, #FFBDE5 100%);
+    height: 500px;
+    max-width: 100%;
+
+}
+
+header {
+    padding-top: 1em;
+}
+
+::ng-deep .basis-1\/6 {
+    flex-basis: 8% !important; 
+}
+
+.hover {
+    --b: 0.1em;
+    --c: #1095c1;
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover:hover {
+    --_p: 100%;
+    --_s: .2s;
+  }
+
+  body {
+    padding: 9em;
+  }
+
+  .texto1Gradient {
+    background: -webkit-linear-gradient(yellow, #EF4444);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.container-night {
+  background: radial-gradient(ellipse at top left  , #923792 10%, #1F2937, #121212  25% 80%, #1E3A8A 100%);
+  height: 500px;
+  max-width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin-left: 5em;
+  margin-top: -8em;
+}
